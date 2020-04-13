@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'common_ios'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of common_ios.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/dongtao03/common_ios'
+  s.homepage         = 'https://github.com/itonydong/common_ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dongtao03' => 'dongtao03@baidu.com' }
-  s.source           = { :git => 'https://github.com/dongtao03/common_ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/itonydong/common_ios', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
