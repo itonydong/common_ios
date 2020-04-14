@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'common_ios'
-  s.version          = '1.0.1'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of common_ios.'
 
 # This description is used to generate tags and improve search results.

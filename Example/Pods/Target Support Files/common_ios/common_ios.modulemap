@@ -1,6 +1,0 @@
-framework module common_ios {
-  umbrella header "common_ios-umbrella.h"
-
-  export *
-  module * { export * }
-}

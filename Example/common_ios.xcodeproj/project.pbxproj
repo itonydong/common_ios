@@ -343,10 +343,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-common_ios_Example/Pods-common_ios_Example-frameworks.sh",
+				"${PODS_ROOT}/Flutter/Flutter.framework",
 				"${BUILT_PRODUCTS_DIR}/common_ios/common_ios.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/common_ios.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
